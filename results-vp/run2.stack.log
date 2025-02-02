@@ -1,0 +1,41 @@
+1024
+==1687458== Profiling result:
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+ GPU activities:   99.99%  97.975ms         1  97.975ms  97.975ms  97.975ms  generatePoints(unsigned long*, unsigned long, unsigned long)
+                    0.01%  5.2480us         1  5.2480us  5.2480us  5.2480us  reduceCounts(unsigned long*, unsigned long*, unsigned long, unsigned long)
+                    0.00%  1.7600us         1  1.7600us  1.7600us  1.7600us  [CUDA memcpy DtoH]
+
+2048
+==1687619== Profiling result:
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+ GPU activities:   99.99%  98.248ms         1  98.248ms  98.248ms  98.248ms  generatePoints(unsigned long*, unsigned long, unsigned long)
+                    0.01%  5.1840us         1  5.1840us  5.1840us  5.1840us  reduceCounts(unsigned long*, unsigned long*, unsigned long, unsigned long)
+                    0.00%  1.7920us         1  1.7920us  1.7920us  1.7920us  [CUDA memcpy DtoH]
+
+4096
+==1688561== Profiling result:
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+ GPU activities:   99.99%  98.044ms         1  98.044ms  98.044ms  98.044ms  generatePoints(unsigned long*, unsigned long, unsigned long)
+                    0.01%  6.9120us         1  6.9120us  6.9120us  6.9120us  reduceCounts(unsigned long*, unsigned long*, unsigned long, unsigned long)
+                    0.00%  1.7600us         1  1.7600us  1.7600us  1.7600us  [CUDA memcpy DtoH]
+
+8192
+==1687766== Profiling result:
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+ GPU activities:   99.99%  98.497ms         1  98.497ms  98.497ms  98.497ms  generatePoints(unsigned long*, unsigned long, unsigned long)
+                    0.01%  10.015us         1  10.015us  10.015us  10.015us  reduceCounts(unsigned long*, unsigned long*, unsigned long, unsigned long)
+                    0.00%  1.7920us         1  1.7920us  1.7920us  1.7920us  [CUDA memcpy DtoH]
+
+16384
+==1687944== Profiling result:
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+ GPU activities:   99.99%  141.11ms         1  141.11ms  141.11ms  141.11ms  generatePoints(unsigned long*, unsigned long, unsigned long)
+                    0.01%  10.080us         1  10.080us  10.080us  10.080us  reduceCounts(unsigned long*, unsigned long*, unsigned long, unsigned long)
+                    0.00%  1.8560us         1  1.8560us  1.8560us  1.8560us  [CUDA memcpy DtoH
+
+32768
+==1688052== Profiling result:
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+ GPU activities:  100.00%  320.87ms         1  320.87ms  320.87ms  320.87ms  generatePoints(unsigned long*, unsigned long, unsigned long)
+                    0.00%  9.9530us         1  9.9530us  9.9530us  9.9530us  reduceCounts(unsigned long*, unsigned long*, unsigned long, unsigned long)
+                    0.00%  2.0480us         1  2.0480us  2.0480us  2.0480us  [CUDA memcpy DtoH]

@@ -1,0 +1,8 @@
+==1930657== NVPROF is profiling process 1930657, command: ./lab1
+==1930657== Profiling application: ./lab1
+==1930657== Profiling result:
+"Start","Duration","Grid X","Grid Y","Grid Z","Block X","Block Y","Block Z","Registers Per Thread","Static SMem","Dynamic SMem","Size","Throughput","SrcMemType","DstMemType","Device","Context","Stream","Name","Correlation_ID"
+ms,ms,,,,,,,,B,B,KB,GB/s,,,,,,,
+253.224652,320.501635,128,1,1,256,1,1,29,0,0,,,,,"Tesla V100-PCIE-32GB (0)","1","7","generatePoints(unsigned long*, unsigned long, unsigned long)",128
+573.727215,0.009920,4,1,1,256,1,1,18,0,0,,,,,"Tesla V100-PCIE-32GB (0)","1","7","reduceCounts(unsigned long*, unsigned long*, unsigned long, unsigned long)",129
+573.743471,0.002080,,,,,,,,,,8.000000,3.667978,"Device","Pageable","Tesla V100-PCIE-32GB (0)","1","7","[CUDA memcpy DtoH]",130
