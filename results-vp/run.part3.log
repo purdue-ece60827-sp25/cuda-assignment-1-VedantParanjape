@@ -1,0 +1,26 @@
+1e6
+==2518226== Profiling result:
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+ GPU activities:   99.99%  97.597ms         1  97.597ms  97.597ms  97.597ms  generatePoints(unsigned long*, unsigned long, unsigned long)
+                    0.01%  5.2160us         1  5.2160us  5.2160us  5.2160us  reduceCounts(unsigned long*, unsigned long*, unsigned long, unsigned long)
+                    0.00%  1.7920us         1  1.7920us  1.7920us  1.7920us  [CUDA memcpy DtoH]
+
+1e7
+==2518449== Profiling result:
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+ GPU activities:  100.00%  976.65ms         1  976.65ms  976.65ms  976.65ms  generatePoints(unsigned long*, unsigned long, unsigned long)
+                    0.00%  5.2160us         1  5.2160us  5.2160us  5.2160us  reduceCounts(unsigned long*, unsigned long*, unsigned long, unsigned long)
+                    0.00%  1.7920us         1  1.7920us  1.7920us  1.7920us  [CUDA memcpy DtoH]
+1e8
+==2518879== Profiling result:
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+ GPU activities:  100.00%  9.74448s         1  9.74448s  9.74448s  9.74448s  generatePoints(unsigned long*, unsigned long, unsigned long)
+                    0.00%  5.2160us         1  5.2160us  5.2160us  5.2160us  reduceCounts(unsigned long*, unsigned long*, unsigned long, unsigned long)
+                    0.00%  1.7920us         1  1.7920us  1.7920us  1.7920us  [CUDA memcpy DtoH]
+
+1e9
+==2519624== Profiling result:
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+ GPU activities:  100.00%  97.4246s         1  97.4246s  97.4246s  97.4246s  generatePoints(unsigned long*, unsigned long, unsigned long)
+                    0.00%  5.2160us         1  5.2160us  5.2160us  5.2160us  reduceCounts(unsigned long*, unsigned long*, unsigned long, unsigned long)
+                    0.00%  1.7600us         1  1.7600us  1.7600us  1.7600us  [CUDA memcpy DtoH]
